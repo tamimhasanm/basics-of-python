@@ -102,3 +102,8 @@ s = float(a+b+c)/2
 area = (s*(s-a)*(s-b)*(s-c))**0.5
 print(area)
 ''' 
+pen_number=14
+student_number=3
+pens_for_each=pen_number//student_number
+remaining_pens=pen_number%student_number
+print(f"Pens for each student: {pens_for_each}\nRemaining pens: {remaining_pens}")
