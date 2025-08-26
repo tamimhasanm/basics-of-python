@@ -114,9 +114,48 @@ print(f"Pens for each student: {pens_for_each}\nRemaining pens: {remaining_pens}
 length=5 # type: ignore
 cube=length**3
 print(cube)
-''' 
+
+#####
 fee=1536
 discount_percent=10
 discount_amount=fee*(discount_percent/100)
 final_amount=(fee-discount_amount)
 print(final_amount)
+
+####
+x="5"
+y="10"
+z=int(x)*int(y)
+print(z)
+
+#### 
+first_name=input("What is your first name?") # type: ignore
+last_name=input("What is your Last name?")
+print(f"First name: {first_name}\nLast Name: {last_name}")
+
+num1=float(input("Enter the num1:"))
+num2=float(input("Enter the num2:"))
+result=(num1*num2)**2
+print(result)
+
+
+# attempt 1
+temp = float(input("Todays temperature in celsius:"))
+
+# Convert it to degree fahrenheit using the formula
+fahrenheit = (temp * 1.8) + 32
+
+# Print the degree in fahrenheit
+print(f"Todays temperature in fahrenheit: {fahrenheit}")
+'''
+# attempt 2
+# Replace ___ with your code below
+
+# Get temperature in degree celsius from the user
+temp = input("Todays temperature in celsius:")
+temp_1 = float(temp)
+# Convert it to degree fahrenheit using the formula
+fahrenheit = (temp_1 * 1.8) + 32
+
+# Print the degree in fahrenheit
+print(fahrenheit)
