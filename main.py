@@ -85,7 +85,9 @@ num2 = input("Enter a another number:")
 n = float(num1) + float(num2)
 # Print the square of result
 print(n**2)
-'''
+
+
+####
 # Replace ___ with your code below
 
 # Get three sides of a triangle
@@ -93,9 +95,10 @@ a = int(input("Enter the first side: "))
 b = int(input("Enter the second side: "))
 c = int(input("Enter the third side: "))
 
-# Compute the semiperimeter
+# Compute the semipermeter
 s = float(a+b+c)/2
 
 # Compute area and print it
 area = (s*(s-a)*(s-b)*(s-c))**0.5
 print(area)
+''' 
