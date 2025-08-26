@@ -101,9 +101,22 @@ s = float(a+b+c)/2
 # Compute area and print it
 area = (s*(s-a)*(s-b)*(s-c))**0.5
 print(area)
-''' 
+
+
+#####
 pen_number=14
 student_number=3
 pens_for_each=pen_number//student_number
 remaining_pens=pen_number%student_number
 print(f"Pens for each student: {pens_for_each}\nRemaining pens: {remaining_pens}")
+
+#####
+length=5 # type: ignore
+cube=length**3
+print(cube)
+''' 
+fee=1536
+discount_percent=10
+discount_amount=fee*(discount_percent/100)
+final_amount=(fee-discount_amount)
+print(final_amount)
